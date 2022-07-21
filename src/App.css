@@ -37,3 +37,10 @@
     transform: translateY(0px);
   }
 }
+h3 {
+  color: rgb(132, 123, 173);
+}
+.port {
+  height: 250px;
+  width: 200px;
+}

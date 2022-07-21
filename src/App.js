@@ -1,19 +1,15 @@
-import { Container, Navbar, NavbarBrand } from 'reactstrap';
-import Dan from './app/assets/img/Dan.jpg';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import PortfolioList from './features/portfolio/PortfolioList';
 import React from 'react';
 import './App.css';
 
 function App() {
   return (
     <div className='App'>
-      <Navbar dark color='primary' sticky='top' expand='md' align='left'>
-               <Container>
-                    <NavbarBrand href='/'>
-                        <img src={Dan} alt='Portfolio Image' />
-                    </NavbarBrand>
-                </Container>
-            </Navbar>
-            I'm Ready!
+      <Header />
+      <PortfolioList />
+      <Footer />
     </div>
   );
 }
