@@ -6,6 +6,7 @@ const PortfolioCard = ({ portfolio }) => {
         <Card>
             <CardImg 
             width='100%'
+            height='220px'
             src={image}
             alt={name}
         />
